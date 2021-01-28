@@ -1,0 +1,2 @@
+# SATA_controller
+Due to the SATA hardcore controller is not widely equiped in FPGA devices, this project is aim to provide a SATA softcore for FPGA device to access SATA SSDs and Hard disks. The controller is implemented on a Xilinx 7-series device, which uses the Xilinx GTX gigabit transceiver to implement the SATA physical layer and Slices to implement SATA upper layers. I test both the SSD from Sumsung and Hard disk from Western digital on board, The result shows our core can provide optimal bandwidth when access SATA SSDs and Hard disks.
